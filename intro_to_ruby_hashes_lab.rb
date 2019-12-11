@@ -29,9 +29,9 @@ end
 
 def update_counting_hash(hash, key)
   if hash[key] # key has to be the exact as the argument key 
-  hash[key] += 1 
+  hash[key] += 1 #it already exists
   else
-     = 1
+    hash[key] = 1 # if it doesn't exist we assign the value 
   end
 
   # given a hash an a key as parameters, return an updated hash
