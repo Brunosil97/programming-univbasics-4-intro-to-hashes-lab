@@ -20,8 +20,8 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  puts "#{key} , #{value}"
-  my_hash_creator = {:key => "#{key}" , :value => "#{value}" } 
+  key = name 
+  
   # return a hash that includes the key and value parameters passed into this method
 end
 
